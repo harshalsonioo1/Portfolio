@@ -23,7 +23,7 @@
         var container, separation = 100, amountX = 80, amountY = 80,
         particles, particle;
 
-        var hero = document.getElementById("hero");
+        var hero = document.getElementById("section3");
         var container = document.createElement("div");
         container.className = "hero-threejs";
         hero.appendChild( container );
