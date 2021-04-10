@@ -18,7 +18,7 @@
 
       function init() {
 
-        var hero = document.getElementById("hero");
+        var hero = document.getElementById("section3");
         var container = document.createElement("div");
         container.className = "hero-threejs";
         hero.appendChild( container );

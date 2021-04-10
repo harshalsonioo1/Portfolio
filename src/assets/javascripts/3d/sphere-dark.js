@@ -10,8 +10,8 @@
       windowHalfY = window.innerHeight / 2,
 
       SEPARATION = 200,
-      AMOUNTX = 50,
-      AMOUNTY = 50,
+      AMOUNTX = 100,
+      AMOUNTY = 100,
 
       camera, scene, renderer;
 
@@ -23,7 +23,7 @@
         var container, separation = 100, amountX = 80, amountY = 80,
         particles, particle;
 
-        var hero = document.getElementById("section3");
+        var hero = document.getElementById("hero");
         var container = document.createElement("div");
         container.className = "hero-threejs";
         hero.appendChild( container );
