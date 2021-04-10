@@ -21,6 +21,7 @@
     <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="assets/images/favicons/manifest.json">
     <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#21252b">
+    <link href="assets/stylesheets/headline.css" rel="stylesheet"/>
     <meta name="theme-color" content="#00C66B">
 
     <!-- Fonts -->
@@ -28,6 +29,9 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
 
     <link href="assets/stylesheets/basic.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/modal/css/style.css"> <!-- Resource style -->
+    <script src="assets/modal/js/modernizr.js"></script> <!-- Modernizr -->
 </head>
 
 <body>
@@ -37,17 +41,24 @@
         <section id="hero" class="hero">
             <div class="hero-content">
                 <div class="hero-header">
+                    <div class="-logo">
+                        <a href="#">
+                            Home &nbsp;
+                        </a>
+                        <a href="#section3">
+                            Research &nbsp;
+                        </a>
+                        <a href="#section4">
+                            About me &nbsp;
+                        </a>
+                    </div>
+
                     <!--social media-->
                     <div class="-cta">
-            
-                        <a href="https://www.linkedin.com/in/soni0909/"><i data-feather="linkedin"></i></a> 
-                    
-                        <a href="https://github.com/harshalsonioo1/"><i data-feather="github"></i></a>   
-            
-                        <a href="https://www.researchgate.net/profile/Harshal-Soni"><i data-feather="award"></i></a>   
-
-                        <a href="mailto:arcadiahms@gmail.com"><i data-feather="mail"></i></a> 
-                
+                        <a href="https://www.linkedin.com/in/soni0909/"><i data-feather="linkedin"></i></a>
+                        <a href="https://github.com/harshalsonioo1/"><i data-feather="github"></i></a>
+                        <a href="https://www.researchgate.net/profile/Harshal-Soni"><i data-feather="award"></i></a>
+                        <a href="mailto:arcadiahms@gmail.com"><i data-feather="mail"></i></a>
                     </div>
                 </div>
 
@@ -61,7 +72,6 @@
                     </div>
                 </div>
                 <div class="hero-footer">
-
                     <div class="-counter">
                         <p>M.Sc in Computer Science</p>
                         <p><small>University of Alberta</small></p>
@@ -97,7 +107,7 @@
 
             <div class="highlights-icon-box">
                 <div class="-icon">
-                    <i data-feather="book-open"></i>
+                    <i data-feather="command"></i>
                 </div>
 
                 <div class="-content">
@@ -105,7 +115,6 @@
                     <p>Of course data is heterogenous! So I coalesce Machine Learning, Statistic, and Deep Learning into a beautifully tailored product.</p>
                 </div>
             </div>
-
 
             <div class="highlights-icon-box">
                 <div class="-icon">
@@ -121,7 +130,7 @@
         </section>
 
         <!-- Clients -->
-        <section class="clients styled">
+        <section id="secion2" class="clients styled">
             <hr class="half">
 
             <div class="clients-testimonials">
@@ -184,18 +193,189 @@
                     </pre>
                         <p>Whether it is TB of data or small experiment set, I have built several successful BigData applications which are serves myriads of people worldwide.</p>
                 </div>
-
-                <ul class="-clients">
-                    <li>
-                 
-                    </li>
-                </ul>
             </div>
             <br>
         </section>
 
+
+                                  <!-- Research -->
+        <section id="section3" class="highlights styled">
+                    <div class="highlights-header">
+                        <h2>Research</h2>
+                    </div>
+
+                   <br>
+                    <hr>
+
+             <div class="highlights-icon-box">
+                    <div class="-icon">
+                    <i data-feather="book-open"></i>
+                    </div>
+                    <div class="-content">
+                    <h5>Machine Learning</h5>
+                        <p>Resolving Class Imbalance using Game Theory in the Contract Bid Predictions system</p>
+                    <section class="cd-section">
+                    <div class="cd-modal-action">
+                    <a href="#0" data-type="modal-trigger">Read More
+                    </a>
+                    <span class="cd-modal-bg"></span>
+                    </div> <!-- cd-modal-action -->
+
+                    <div class="cd-modal">
+                    <div class="cd-modal-content">
+                    <p>
+                    Launched a 'Bid Prediction system' for a $ 100M+ engineering client by designing a novel 'skill ranking' algorithm based on Game Theory to eliminate the model's unfairness and improving their win-rate by 45%.
+                    </p>
+
+                    </div> <!-- cd-modal-content -->
+                    </div> <!-- cd-modal -->
+                    <a href="#0" class="cd-modal-close">Close</a>
+                    </section>
+                        <!-- .cd-section -->
+                        <br>
+
+                        <p>Automated Calibration and Optimization System for large-scale Assembly Line using LSTMs</p>
+                    <section class="cd-section">
+                    <div class="cd-modal-action">
+                    <a href="#0" data-type="modal-trigger">Read More
+                    </a>
+                    <span class="cd-modal-bg"></span>
+                    </div> <!-- cd-modal-action -->
+
+                    <div class="cd-modal">
+                    <div class="cd-modal-content">
+                    <p>
+                    Claimed IP for the customer by designing a novel 'model predictive controller' to automatically regulate their manufacturing plant's parameters for optimal production, reducing their carbon footprint by 25%
+                    </div> <!-- cd-modal-content -->
+                    </div> <!-- cd-modal -->
+                    <a href="#0" class="cd-modal-close">Close</a>
+                    </section>
+                    </div>
+                    </div>
+
+
+
+                    <div class="highlights-icon-box">
+                    <div class="-icon">
+                    <i data-feather="book-open"></i>
+                    </div>
+                    <div class="-content">
+                    <h5>Deep Learning</h5>
+                        <p>InSAR Coherence Estimation using Multi-Stage Super Pixeling on Graph Convolutional Networks</p>
+                    <section class="cd-section">
+                    <div class="cd-modal-action">
+                    <a href="#0" data-type="modal-trigger">Read More
+                    </a>
+                    <span class="cd-modal-bg"></span>
+                    </div> <!-- cd-modal-action -->
+
+                    <div class="cd-modal">
+                    <div class="cd-modal-content">
+                    <p>
+                    Interferometric Synthetic Aperture Radar (InSAR) is a satellite-based imaging technique which has been used to learn about earth's surface and sub-surface movements. It can measure earth's displacements by comparing phase information from the Synthetic Aperture Radar (SAR) images taken at different points in time. But, due to high level of noises from scatterers, the wrapped phases are distorted. Estimating the coherence of SAR image pair becomes rather important in this situation to denoise them and extract useful information from it. In our research, traditional methods of oversegmentation called Super Pixeling was performed in multiple levels, to capture the local as well as non-local coherence of images. The initial level of super pixeling was performed using SLIC [10] and Felzenszwalb's [11] algorithm and the second level using K-means clustering algorithm. We performed our tests on two datasets with 0.1 to 0 left to right and 0.3 fixed noise levels respectively. Our results show that, on the dataset with higher noise, our proposed method with best tuned parameters gave a mean-squared error(MSE) of 0.0157 which is 1.9 times better than the widely used traditional method called Boxcar (sliding window) which has an MSE of 0.0302. Also, it presented 30% more structural similarity of the coherence estimates compared to that of Boxcar. Our proposed method has outperformed even the Convolutional Neural Network(CNN) learning-based approach [7] which gave a higher mean-squared error of 0.0299. Thus, our proposed approach estimates coherence between two SAR images, in a more robust and accurate way, compared to the existing traditional as well as learning-based state-of-the-art methods.
+                    </p>
+
+                    </div> <!-- cd-modal-content -->
+                    </div> <!-- cd-modal -->
+                    <a href="#0" class="cd-modal-close">Close</a>
+                    </section>
+                        <!-- .cd-section -->
+                        <br>
+
+                        <p>3VTC: 360-Degree Video Teleconferencing</p>
+                    <section class="cd-section">
+                    <div class="cd-modal-action">
+                    <a href="#0" data-type="modal-trigger">Read More
+                    </a>
+                    <span class="cd-modal-bg"></span>
+                    </div> <!-- cd-modal-action -->
+
+                    <div class="cd-modal">
+                    <div class="cd-modal-content">
+                    <p>
+                    The advancements in communication technologies will open new frontiers in the domain of teleconferencing and video conferencing. Current applications of video conferencing are solely based on streaming 2D videos over the network. However, the new research towards 360 o video transmission has the potential to revamp the video calling experience. We are the pioneers in this domain by creating a mobile application that coalesces stereoscopic Virtual Reality (VR) video streaming and monoscopic video streaming on the same platform using the same 360 o video. The application is powered by Android on the client-side and PANO [1] video streaming strategy on the server-side. We have empowered the entire application to support multiple clients by orchestrating the entire server on Kubernetes [2] and Docker [3] containers on our local machine. Our evaluation has suggested that our application can run even in poor network conditions, just under 10 Mbps network link. Our optimizations to PANO streaming strategy for teleconferencing application saves bandwidth consumption up to 38% compared to the original 360 o videos and up to 46% compared to PANO baseline version.</p>
+
+                    </div> <!-- cd-modal-content -->
+                    </div> <!-- cd-modal -->
+                    <a href="#0" class="cd-modal-close">Close</a>
+                    </section>
+                    </div>
+                    </div>
+
+
+                     <div class="highlights-icon-box">
+                    <div class="-icon">
+                    <i data-feather="book-open"></i>
+                    </div>
+                    <div class="-content">
+                    <h5>Computer Vision</h5>
+                        <p>3D Human Pose Estimation from single RGB</p>
+                    <section class="cd-section">
+                    <div class="cd-modal-action">
+                    <a href="#0" data-type="modal-trigger">Read More
+                    </a>
+                    <span class="cd-modal-bg"></span>
+                    </div> <!-- cd-modal-action -->
+
+                    <div class="cd-modal">
+                    <div class="cd-modal-content">
+                    <p>
+                    The proliferation of computer vision techniques has kindled multiple applications that facilitate computers to detect humans as well as provide smart services. Estimating 3D spatial coordinates of the skeleton in real-time with reasonable latency using a single RGB image is the motivation behind this work. We are considering image processing as well as a multi-layer neural network-based approach as the modus operandi. The image processing method titled "Multi-Person human pose estimation over inaccurate bounding boxing" has four major components in its architecture [1]: Symmetric Spatial Transformer Network (SSTN), Parametric Pose Non-Maximum-Suppression (NMS), Pose-Guided Proposals Generator (PGPG), and Non-parametric Pose Lifter. This method is able to handle inaccurate bounding boxes and redundant detection, allowing it to achieve 80.7 mAP on the MPII (multi-person) data-set [2]. The multi-layer neural network approach is implemented in a unique way to avoid the extensive training time by taking 2D points as an input rather than raw images and perform end-to-end learning to 3D pose points. Neural network-based 2D pose estimators have an exceptionally well accuracy and 2D points are easily derived for our network from it. This facilitates us to train the entire Human 3.6M data-set [3] on a single GPU because of the low-dimensionality.</p>
+
+                    </div> <!-- cd-modal-content -->
+                    </div> <!-- cd-modal -->
+                    <a href="#0" class="cd-modal-close">Close</a>
+                    </section>
+                        <!-- .cd-section -->
+                        <br>
+                                                <p>6D Pose Estimation for Texture-less Objects</p>
+                    <section class="cd-section">
+                    <div class="cd-modal-action">
+                    <a href="#0" data-type="modal-trigger">Read More
+                    </a>
+                    <span class="cd-modal-bg"></span>
+                    </div> <!-- cd-modal-action -->
+
+                    <div class="cd-modal">
+                    <div class="cd-modal-content">
+                    <p>
+                   The developments in the field of Artificial Intelligence has instigated extensive research in computer vision to enable the detection of objects adhering autonomy and accuracy. In this work, we propose a technique to estimate the 6D poses of the Texture-less objects using a deep neural network. The network is trained on a T-Less dataset to estimate 3D transnational and 3D rotational pose estimates. However, fundamental properties of the objects, environment encompassing the object, and media to capture them poses a challenge to estimate the pose of the object; our work also includes a pose refinement technique in which our network iteratively refine the estimates by taking cosine similarity between observed image and the rendered image.
+                    </p>
+
+                    </div> <!-- cd-modal-content -->
+                    </div> <!-- cd-modal -->
+                    <a href="#0" class="cd-modal-close">Close</a>
+                    </section>
+                        <!-- .cd-section -->
+
+                        <br>
+                                                <p>Automated Segmentation of Medical Images And Mobile Visualization in 3D</p>
+                    <section class="cd-section">
+                    <div class="cd-modal-action">
+                    <a href="#0" data-type="modal-trigger">Read More
+                    </a>
+                    <span class="cd-modal-bg"></span>
+                    </div> <!-- cd-modal-action -->
+
+                    <div class="cd-modal">
+                    <div class="cd-modal-content">
+                    <p>
+                    In recent days, medical image registration is considered a valuable assistant for radiologists. They assist the radiologists in the diagnosis, deciding the required treatments regarding the patient's condition. There are various applications in the Marketplace that visualize these medical images of MRI (Magnetic Resonance Image) and CT (Computed Tomography) into a 3D model. The aim of this paper is to develop a mobile application that will help to meet these objectives by enabling the doctors to visualize the brain along with its parts in 3D and by automatically segmenting important parts of the brain. This tool will also provide multiple visualization tools in real-time for the efficient understanding of a patient's scan, for example, color functions, different view-projection of the brain, rendering intensities [11].</p>
+
+                    </div> <!-- cd-modal-content -->
+                    </div> <!-- cd-modal -->
+                    <a href="#0" class="cd-modal-close">Close</a>
+                    </section>
+
+
+                    </div>
+                    </div>
+                     <img src="assets/images/basic/gallery/rainbow-glow-2.png" class="highlights-glow" alt="Rainbow glow 1" />
+
+                 </section>
+
         <!-- Highlights -->
-        <section id="section1" class="highlights styled">
+        <section id="section4" class="highlights styled">
             <hr>
             <div class="highlights-header">
                 <h6>About me</h6>
@@ -213,7 +393,7 @@
                             Currently in Edmonton, Alberta. My dream is to run a quarter marathon in some of the coldest places on the planet. I love rock climbing and yoga.
                             <br>
                             <br>
-                            Interested in my complete reseach?<a href="https://www.researchgate.net/profile/Harshal-Soni" target="_blank" style="color:deepskyblue;"> Click here</a>
+                            Interested in my resume?<a href="assets/pdf/resume.pdf" target="_blank" style="color:deepskyblue;"> Get it here.</a>
                         </p>
                         </div>
                     </div>
@@ -241,7 +421,7 @@
             </div>
 
             <p class="-copyright">
-                <small>© <time datetime="2020">2020</time> All rights reserved by Harshal Soni..</small>
+                <small>© <time datetime="2020">2020</time> All rights reserved by Harshal Soni.</small>
             </p>
         </div>
     </footer>
@@ -259,11 +439,16 @@
     <script src="assets/javascripts/plugins/packery.js"></script>
     <script src="assets/javascripts/plugins/magnific-popup.js"></script>
     <script src="assets/javascripts/plugins/slick-carousel.js"></script>
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    <script src="assets/javascripts/3d/field.js"></script>
     <script src="assets/javascripts/3d/sphere-dark.js"></script>
+    <script src="assets/javascripts/plugins/headline.js"></script>
 
     <script src="assets/javascripts/main.js"></script>
     <script src="assets/javascripts/basic.js"></script>
+
+    <script src="assets/modal/js/velocity.min.js"></script>
+    <script src="assets/modal/js/main.js"></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="/__/firebase/8.3.3/firebase-app.js"></script>
