@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="819e7e63-b17c-4657-89f3-2618cc3b3548" name="Default Changelist" comment="Portfolio Commit version2 bug fix">
-      <change afterPath="$PROJECT_DIR$/.firebase/hosting.c3Jj.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/data/heart.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/javascripts/3d/field.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/javascripts/3d/field.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/javascripts/3d/sphere-dark.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/javascripts/3d/sphere-dark.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/headline.css" beforeDir="false" />
+    <list default="true" id="819e7e63-b17c-4657-89f3-2618cc3b3548" name="Default Changelist" comment="Changed font scheme to apple">
+      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/MAd_failsafe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/MAd_failsafev1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/gitpod-applet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/nevergonna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/nevergonna.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/sphere-dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mad_chrome/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/aboutgifs/process-meeting.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/aboutgifs/process-prototyping.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/aboutgifs/process-strategy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/aboutgifs/process-tech.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/aboutgifs/process-workshops.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/Figure1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/Figure2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/Figure3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/db_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/gitpod-applet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/nevergonna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/nevergonna.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/basic/gallery/pspnr_vs_bandwidth_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/javascripts/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylesheets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.c3Jj.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.c3Jj.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/javascripts/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/javascripts/default.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +98,8 @@
       <workItem from="1617980024089" duration="12960000" />
       <workItem from="1618000648137" duration="13965000" />
       <workItem from="1618020421689" duration="3774000" />
-      <workItem from="1618091355448" duration="32000" />
+      <workItem from="1618091355448" duration="259000" />
+      <workItem from="1618116116066" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio Commit">
       <created>1617943432585</created>
@@ -92,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618015240439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed font scheme to apple">
+      <created>1618091403395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618091403395</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Portfolio Commit" />
     <MESSAGE value="Portfolio Commit version2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Portfolio Commit version2" />
+    <MESSAGE value="Changed font scheme to apple" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed font scheme to apple" />
   </component>
 </project>
