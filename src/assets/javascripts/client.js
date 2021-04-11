@@ -2365,16 +2365,16 @@ var ge = class extends T {
       initialized: !1,
       activePathname: null,
       items: [{
-        url: "/",
-        title: "Work"
-      }, {
         url: "#",
         title: "About"
+      },{
+        url: "/",
+        title: "Playground"
       }, {
         url: "/contact",
         title: "Contact",
         items: [{
-          url: "mailto:letsbuild@mad.ac",
+          url: "mailto:arcadiahms@gmail.com",
           title: "Email"
         }, {
           url: "https://www.linkedin.com/in/soni0909/",
